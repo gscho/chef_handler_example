@@ -1,0 +1,51 @@
+{
+  "revision_id": "29d5f904d432893a1a8c1bd41eabb1ad283ea99602cc1f1217b7622702f19419",
+  "name": "chef_handler_example",
+  "run_list": [
+    "recipe[chef_handler_example::handler_dsl]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "chef_handler_example": {
+      "version": "0.1.0",
+      "identifier": "e9601a6b71c1571d9077bc2b2ed041612dad9b31",
+      "dotted_decimal_identifier": "65689336161616215.8321618257063632.71885633985329",
+      "source": "..",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "78801d3f9ff367d1c3e584d311860b42616648b9",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": ".."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "chef_handler_example",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "chef_handler_example (0.1.0)": [
+
+      ]
+    }
+  }
+}

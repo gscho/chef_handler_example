@@ -1,4 +1,4 @@
 # chef_handler_example
 
-TODO: Enter the cookbook description here.
+https://www.rubydoc.info/github/opscode/chef/Chef/EventDispatch/Base#run_failed-instance_method
 
