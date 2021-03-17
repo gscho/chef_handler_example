@@ -14,4 +14,4 @@ module ChefHandlerExample
     end
   end
 end
-Chef::Recipe.send(:include, ChefHandlerExample)
+
